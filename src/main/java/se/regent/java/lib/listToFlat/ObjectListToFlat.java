@@ -2,7 +2,6 @@ package se.regent.java.lib.listToFlat;
 
 
 import com.sun.deploy.util.StringUtils;
-import com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
