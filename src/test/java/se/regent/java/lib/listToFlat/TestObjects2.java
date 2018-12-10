@@ -1,18 +1,19 @@
-package se.uc.listToFlat;
+package se.regent.java.lib.listToFlat;
 
-public class TestObjects {
+public class TestObjects2 {
 
     private String name;
     private String type;
+    private String hello;
 
-
-    public TestObjects() {
+    public TestObjects2() {
     }
 
 
-    TestObjects(String name, String type) {
+    TestObjects2(String name, String type, String hello) {
         this.name = name;
         this.type = type;
+        this.hello = hello;
     }
 
     public String getName() {
@@ -31,11 +32,20 @@ public class TestObjects {
         this.type = type;
     }
 
+    public String getHello() {
+        return hello;
+    }
+
+    public void setHello(String hello) {
+        this.hello = hello;
+    }
+
     @Override
     public String toString() {
         return "TestObjects{" +
                 "name='" + name + '\'' +
                 ", type='" + type + '\'' +
+                ", hello='" + hello + '\'' +
                 '}';
     }
 }

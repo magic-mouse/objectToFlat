@@ -1,4 +1,4 @@
-package se.uc.listToFlat;
+package se.regent.java.lib.listToFlat;
 
 public class TestObjectsIntegersAndLong {
 
