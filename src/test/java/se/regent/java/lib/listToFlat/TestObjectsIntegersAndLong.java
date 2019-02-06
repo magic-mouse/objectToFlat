@@ -1,6 +1,6 @@
 package se.regent.java.lib.listToFlat;
 
-public class TestObjectsIntegersAndLong {
+class TestObjectsIntegersAndLong {
 
     private String name;
     private int type;

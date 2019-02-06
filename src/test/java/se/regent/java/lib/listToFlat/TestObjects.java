@@ -1,6 +1,6 @@
 package se.regent.java.lib.listToFlat;
 
-public class TestObjects {
+class TestObjects {
 
     private String name;
     private String type;
